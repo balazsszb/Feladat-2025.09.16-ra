@@ -288,4 +288,101 @@ class Program
     }
 }
 
+// 15. Kiírja 1-től n-ig a számokat szóközzel elválasztva
+//static void F15()
+//{
+//    Console.Write("Adj meg egy pozitív egész számot: ");
+//    int n = int.Parse(Console.ReadLine());
+//    for (int i = 1; i <= n; i++)
+//    {
+//        Console.Write(i + " ");
+//    }
+//    Console.WriteLine();
+//}
+
+
+// 16. Kiírja 1-től n-ig a számokat egymás alá
+//static void F16()
+//{
+//    Console.Write("Adj meg egy pozitív egész számot: ");
+//    int n = Convert.ToInt32(Console.ReadLine());
+//    for (int i = 1; i <= n; i++)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+
+// 17. Egy szám osztóinak kiírása
+//static void F17()
+//{
+//    Console.Write("Adj meg egy pozitív egész számot: ");
+//    int szam = int.Parse(Console.ReadLine());
+//    Console.WriteLine("A(z) " + szam + " osztói:");
+//    for (int i = 1; i <= szam; i++)
+//    {
+//        if (szam % i == 0)
+//            Console.Write(i + " ");
+//    }
+//    Console.WriteLine();
+//}
+
+
+// 18. Osztók összege
+//static void F18()
+//{
+//    Console.Write("Adj meg egy pozitív egész számot: ");
+//    int szam = Convert.ToInt32(Console.ReadLine());
+//    int osszeg = 0;
+//    for (int i = 1; i <= szam; i++)
+//    {
+//        if (szam % i == 0)
+//            osszeg += i;
+//    }
+//    Console.WriteLine("Az osztók összege: " + osszeg);
+//}
+
+
+// 19. Tökéletes szám-e?
+//static void F19()
+//{
+//    Console.Write("Adj meg egy pozitív egész számot: ");
+//    int n = int.Parse(Console.ReadLine());
+//    int osszeg = 0;
+//    for (int i = 1; i <= n; i++)
+//    {
+//        if (n % i == 0)
+//            osszeg += i;
+//    }
+//    if (osszeg == 2 * n)
+//        Console.WriteLine(n + " tökéletes szám.");
+//    else
+//        Console.WriteLine(n + " nem tökéletes szám.");
+//}
+
+
+//// 20. Hatványozás
+//static void F20()
+//{
+//    Console.Write("Hatványalap: ");
+//    int alap = int.Parse(Console.ReadLine());
+//    Console.Write("Kitevő: ");
+//    int kitevo = int.Parse(Console.ReadLine());
+//    double eredmeny = Math.Pow(alap, kitevo);
+//    Console.WriteLine("Hatványérték: " + eredmeny);
+//}
+
+
+//// 21. Csak pozitív számot fogad el
+//static void F21()
+//{
+//    int n;
+//    do
+//    {
+//        Console.Write("Adj meg egy pozitív számot: ");
+//    } while (!int.TryParse(Console.ReadLine(), out n) || n <= 0);
+//    Console.WriteLine("Köszönöm, a szám: " + n);
+//}
+//}
+
 // azokhoz a sorokhoz irtam kommentet, amihez hasznaltam valamilyen segitseget. legtöbb esetben ait.
